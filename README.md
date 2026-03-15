@@ -7,20 +7,12 @@ A minimal, bilingual blog built with Next.js 15 and Tailwind CSS 4. Fork it, edi
 ## Quick Start
 
 ```bash
-# 1. Fork or clone this repo
 git clone <your-fork-url> my-blog && cd my-blog
-
-# 2. Install dependencies
 npm install
-
-# 3. Configure your site
-cp site.config.example.ts site.config.ts
-# Edit site.config.ts with your name, description, and tagline
-
-# 4. Start writing
-npm run dev     # dev server on :3000
-npm run build   # production build to /out
+npm run dev     # runs on :3000 with default config
 ```
+
+Edit `site.config.ts` (auto-created on first run) to set your blog name, description, and tagline.
 
 ## Configuration
 
