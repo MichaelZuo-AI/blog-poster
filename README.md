@@ -14,6 +14,8 @@ npm run dev     # runs on :3000 with default config
 
 Edit `site.config.ts` (auto-created on first run) to set your blog name, description, and tagline.
 
+![Default blog out of the box](public/screenshot.png)
+
 ## Configuration
 
 All site-wide settings live in **`site.config.ts`**:
