@@ -7,7 +7,7 @@ A minimal, bilingual blog built with Next.js 15 and Tailwind CSS 4. Fork it, edi
 ## Quick Start
 
 ```bash
-git clone <your-fork-url> my-blog && cd my-blog
+git clone https://github.com/MichaelZuo-AI/blog-poster.git my-blog && cd my-blog
 npm install
 npm run dev     # runs on :3000 with default config
 ```
