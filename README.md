@@ -2,6 +2,8 @@
 
 A minimal, bilingual blog built with Next.js 15 and Tailwind CSS 4. Fork it, edit one config file, and start writing.
 
+**Live example:** [michaelzuo.vip](https://michaelzuo.vip)
+
 ## Quick Start
 
 ```bash

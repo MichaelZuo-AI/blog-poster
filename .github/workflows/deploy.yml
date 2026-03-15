@@ -26,16 +26,17 @@ jobs:
       - run: npm ci
       - run: "[ -f site.config.ts ] || cp site.config.example.ts site.config.ts"
       - run: npm run build
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./out
+      # Uncomment below to enable GitHub Pages deployment:
+      # - uses: actions/upload-pages-artifact@v3
+      #   with:
+      #     path: ./out
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+  # deploy:
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
+  #   runs-on: ubuntu-latest
+  #   needs: build
+  #   steps:
+  #     - id: deployment
+  #       uses: actions/deploy-pages@v4
