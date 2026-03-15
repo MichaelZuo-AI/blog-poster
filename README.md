@@ -1,6 +1,6 @@
 # Blog Poster
 
-A minimal, bilingual blog built with Next.js 15 and Tailwind CSS 4. Fork it, edit one config file, and start writing.
+A beautiful, ready-to-go blog for anyone who wants to share their thoughts with the world. Clone, run, and start posting — no design skills needed.
 
 **Live example:** [michaelzuo.vip](https://michaelzuo.vip)
 
